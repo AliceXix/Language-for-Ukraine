@@ -1,38 +1,98 @@
-.App {
+html { 
+  background: url('../public/Flag_of_Ukraine.svg.webp') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  padding: 3rem 1rem 4rem 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#banner {
+  height: 50px;
+  background-color: black; 
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  all: unset;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  border: 1px solid gray;
+  padding: 10px 1rem;
+  border-radius: 400px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  outline: none;
+  border-color: unset;
+}
+
+.PrimaryBtn {
+  border-color: unset;
+  color: #fff;
+  background-color: #151418;
+  margin: auto;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.BigCard {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.Container {
+  width: 100%;
+  /* padding-right: 1rem;
+  padding-left: 1rem;
+  margin: auto;
+  margin-top: 3rem; */
+}
+
+span {
+  margin: auto;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+main {
+  background-color: #151418;
+  color: #fff;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  text-align: justify;
+}
+
+.BigCard article {
+  width: 70%;
+}
+
+.right-side {
+  float: right;
+  margin: 1rem;
 }
