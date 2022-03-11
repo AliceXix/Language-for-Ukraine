@@ -77,10 +77,10 @@ export const Home = () => (
 
       <div className="BigCard">
         <article>
-          <h3>Ukrainian wanting to learn english!</h3>
+          <h3>Українець хоче вивчити англійську!</h3>
           <p>
-            If you are from Ukraine and want to <strong>learn english</strong>,
-            send me an email.
+            Якщо ви з України і хочете <strong>вивчити англійську мову</strong>,
+            надішліть мені електронний лист.
           </p>
           <span>language4ukraine@gmail.com</span>
         </article>
