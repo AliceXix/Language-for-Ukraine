@@ -77,10 +77,10 @@ export const Home = () => (
 
       <div className="BigCard">
         <article>
-          <h3>Українець хоче вивчити англійську!</h3>
+          <h3>Українець, бажаеш вчити англійську?</h3>
           <p>
-            Якщо ви з України і хочете <strong>вивчити англійську мову</strong>,
-            надішліть мені електронний лист.
+            України і бажаете <strong>вчити англійську мову</strong>, надішліть
+            мені електронного листа.
           </p>
           <span>language4ukraine@gmail.com</span>
         </article>
@@ -90,7 +90,7 @@ export const Home = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          вчити англійську
+          вчити англійську мову
         </a>
       </div>
     </div>
